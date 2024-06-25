@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="./img/icon.png" sizes="32x32">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body class="bg-cover" style="background-image: url(./img/bg.png);">
+  <header class="pt-[100px] pb-20">
+    <div class="max-w-[1720px] px-5 mx-auto flex items-center justify-between">
+      <div>
+        <ul class="flex items-center gap-12">
+          <li><a class="text-white font-semibold text-xl uppercase hover:opacity-80" href="#">О НАС</a></li>
+          <li><a class="text-white font-semibold text-xl uppercase hover:opacity-80" href="#">Услуги</a></li>
+          <li><a class="text-white font-semibold text-xl uppercase hover:opacity-80" href="#">Типы объектов</a></li>
+          <li><a class="text-white font-semibold text-xl uppercase hover:opacity-80" href="#">Вакансии</a></li>
+          <li><a class="text-white font-semibold text-xl uppercase hover:opacity-80" href="#">Лицензия</a></li>
+          <li><a href="index.html"><img src="./img/header/logo.svg" alt="logo"></a></li>
+          <li><a class="text-white font-semibold text-xl uppercase hover:opacity-80" href="#">Новости</a></li>
+          <li><a class="text-white font-semibold text-xl uppercase hover:opacity-80" href="#">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-4">
+        <a class="text-black py-1.5 px-2 border-[2px] items-center gap-2.5 border-[#B9B9B9] bg-[#B9B9B9] inline-flex"
+          href="mailto:INFO@MASSIV-OHRANA.RU">
+          <span>
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 16V0H20V16H0ZM10 9L18 4V2L10 7L2 2V4L10 9Z" fill="currentColor" />
+            </svg>
+          </span> INFO@MASSIV-OHRANA.RU</a>
+        <a class="text-white py-1.5 px-2 border-[2px] items-center gap-2.5 inline-flex"
+          href="tel:+ 8 (812) - 383-23-41">
+          <span>
+            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M15.551 20.1335C14.111 20.0805 10.03 19.5165 5.75602 15.2435C1.48302 10.9695 0.920023 6.88946 0.866023 5.44846C0.786023 3.25246 2.46802 1.11946 4.41102 0.28646C4.645 0.185427 4.90122 0.14696 5.15455 0.174835C5.40788 0.20271 5.64961 0.295969 5.85602 0.44546C7.45602 1.61146 8.56002 3.37546 9.50802 4.76246C9.71661 5.06719 9.80579 5.43801 9.75858 5.80426C9.71137 6.17051 9.53107 6.50659 9.25202 6.74846L7.30102 8.19746C7.20677 8.26552 7.14042 8.36549 7.1143 8.47878C7.08818 8.59208 7.10407 8.711 7.15902 8.81346C7.60102 9.61646 8.38702 10.8125 9.28702 11.7125C10.188 12.6125 11.44 13.4505 12.299 13.9425C12.4067 14.0029 12.5335 14.0198 12.6533 13.9897C12.7731 13.9596 12.8767 13.8847 12.943 13.7805L14.213 11.8475C14.4465 11.5373 14.7909 11.3295 15.1742 11.2676C15.5575 11.2058 15.9498 11.2946 16.269 11.5155C17.676 12.4895 19.318 13.5745 20.52 15.1135C20.6817 15.3214 20.7845 15.5689 20.8177 15.8301C20.851 16.0913 20.8134 16.3567 20.709 16.5985C19.872 18.5515 17.754 20.2145 15.551 20.1335Z"
+                fill="currentColor" />
+            </svg>
+          </span>+ 8 (812) - 383-23-41</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="pb-[88px]">
+    <div class="max-w-[1720px] px-5 mx-auto flex justify-between items-center">
+      <div>
+        <h1 class="text-white  text-[89px] leading-[115.78px] font-semibold mb-[50px]">СТАЦИОНАРНЫЙ <br> ПОСТ <span
+            class="text-[#0C713F]"> ОТ 260 ₽/Ч</span></h1>
+        <p class="crimson-text-regular max-w-[975px] text-white text-2xl leading-[32.93px] uppercase mb-9 ">Стационарный
+          пост это специально оборудованное помещение или здание, предназначенное для осуществления охранной
+          деятельности. В нем обычно располагаются сотрудники службы безопасности, которые контролируют территорию
+          объекта
+          и обеспечивают его защиту от возможных угроз</p>
+        <a class="text-black inline-flex font-bold text-[22px] leading-[28.6px] py-3.5 px-8 bg-white border-white border hover:bg-transparent hover:text-white transition-all mb-28"
+          href="#">ОСТАВИТЬ ЗАЯВКУ</a>
+        <div class="flex items-center gap-28 pl-[50px]">
+          <a class="text-white text-xl leading-7 flex items-center justify-center" href="#">
+            <span class="absolute -z-20">
+              <svg width="192" height="72" viewBox="0 0 192 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H151L192 36L151 72H0V0Z" fill="#313131" />
+              </svg>
+            </span>
+            ГЛАВНАЯ</a>
+          <a class="text-white text-xl leading-7 flex items-center justify-center" href="#">
+            <span class="absolute -z-20">
+              <svg width="367" height="72" viewBox="0 0 367 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H325.5L367 35L325.5 72H0L41.5 36L0 0Z" fill="#313131" />
+              </svg>
+            </span>
+            СТАЦИОНАРНЫЙ ПОСТ</a>
+        </div>
+      </div>
+      <div>
+        <img class="max-w-[560px] w-full" src="./img/hero/hero.png" alt="hero">
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#4D4D4D] ">
+    <div class="max-w-[1720px] px-5 mx-auto relative flex justify-between items-center">
+      <div class="py-[18px]" >
+        <h2 class="font-semibold text-white text-[40px] mb-8">ЧТО ВКЛЮЧАЕТ В СЕБЯ <br class="md:block hidden">
+          СТАЦИОНАРНЫЙ ПОСТ?</h2>
+        <ul class="mb-20 pl-5">
+          <li class="crimson-text-regular text-white list-disc text-2xl leading-8">физическую охрану объекта, которая
+            обеспечивает безопасность функционирования объекта</li>
+          <li class="crimson-text-regular text-white list-disc text-2xl leading-8">сохранность его материального
+            имущества и защиту жизни и здоровья персонала </li>
+        </ul>
+        <p class="text-white max-w-[1120px] text-2xl pl-6 border-l-[4px] border-l-white">Охрана осуществляется путем
+          непосредственного присутствия сотрудников охраны
+          на охраняемой территории. За каждым постом охраны закреплен мобильный экипаж (ГБР), <br class="md:block hidden" > который несет
+          круглосуточное дежурство</p>
+      </div>
+      <div class="absolute right-0" >
+        <img class="max-w-[654px] w-full border-l-[#202020] border-l-[16px]" src="./img/hero/security.png"
+          alt="security">
+      </div>
+    </div>
+  </section>
+
+
+  <h3 class="text-white font-bold mb-7 pt-14 max-w-[1720px] px-5 mx-auto text-3xl">ПО ГРАФИКУ РАБОТЫ РАЗЛИЧАЮТ:</h3>
+  <section class="py-8 bg-[#313131]">
+    <div class="max-w-[1720px] px-5 mx-auto">
+      <ul class="flex flex-col gap-10 max-w-[1103px]">
+        <li class="text-white text-3xl">1. <span class="font-bold">круглосуточный</span> – охрана осуществляется
+          постоянно, сотрудники службы безопасности работают по сменному графику</li>
+        <li class="text-white text-3xl">2. <span class="font-bold">почасовой</span> – обязанности охранника действуют в
+          часы работы охраняемого предприятия</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="max-w-[1720px] px-5 mx-auto">
+      <h2 class="text-white font-bold text-4xl leading-[51.99px] mb-14">ОТ ЧЕГО ЗАВИСИТ СТОИМОСТЬ <br
+          class="md:block hidden"> ПРЕДОСТАВЛЯЕМЫХ УСЛУГ?</h2>
+      <div class="grid grid-cols-2 gap-11 justify-between">
+        <div class="flex items-center gap-12">
+          <img class="max-w-[109px] w-full" src="./img/uslugi/1.svg" alt="">
+          <p class="text-white text-2xl max-w-[560px]"><b>Количество охранников</b>, необходимых для обеспечения
+            безопасности объекта</p>
+        </div>
+        <div class="flex items-center gap-12">
+          <img class="max-w-[109px] w-full" src="./img/uslugi/2.svg" alt="">
+          <p class="text-white text-2xl max-w-[560px]"><b>Количество охранников</b>, необходимых для обеспечения
+            безопасности объекта</p>
+        </div>
+        <div class="flex items-center gap-12">
+          <img class="max-w-[109px] w-full" src="./img/uslugi/3.svg" alt="">
+          <p class="text-white text-2xl max-w-[560px]"><b>Количество охранников</b>, необходимых для обеспечения
+            безопасности объекта</p>
+        </div>
+        <div class="flex items-center gap-12">
+          <img class="max-w-[109px] w-full" src="./img/uslugi/4.svg" alt="">
+          <p class="text-white text-2xl max-w-[560px]"><b>Количество охранников</b>, необходимых для обеспечения
+            безопасности объекта</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="max-w-[1720px] px-5 mx-auto">
+      <h2 class="text-white font-bold text-4xl leading-[51.99px] mb-14 relative">ДЛЯ КАКИХ ОБЪЕКТОВ <br
+          class="md:block hidden">
+        ПОДХОДИТ?</h2>
+      <div class="swiper mySwiper cursor-grab">
+        <div class="swiper-wrapper mb-16">
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+          <div class="swiper-slide bg-[#4D4D4D] px-9 py-7">
+            <h3 class="text-white font-semibold text-2xl mb-5">Офисные здания и бизнес-центры </h3>
+            <p class="text-white text-2xl leading-[27.11px]">
+              Обеспечение безопасности сотрудников
+              и ограничения доступа к офисным помещениям</p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <h2 class="max-w-[1720px] px-5 mx-auto text-white font-bold text-4xl leading-[51.99px] mb-14 relative">КАК
+      ОСУЩЕСТВЛЯЕТСЯ РАБОТА <br class="md:block hidden"> ОХРАННИКА:</h2>
+    <div class="max-w-[1720px] px-5 mx-auto flex items-center justify-between">
+      <div class="flex flex-col gap-12">
+        <div class="flex items-center gap-[69px]">
+          <img class="max-w-[120px] w-full" src="./img/work/01.svg" alt="">
+          <div class="max-w-[900px]">
+            <h3 class="text-white font-bold text-2xl mb-4 uppercase">РАЗРАБОТКА ПЛАНА ОХРАНЫ:</h3>
+            <p class="text-white text-2xl ">Для каждого объекта разрабатывается индивидуальный план охраны.
+              Он учитывает особенности объекта, возможные угрозы и риски,
+              а также определяет необходимое количество охранников и их задачи</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-[69px]">
+          <img class="max-w-[120px] w-full" src="./img/work/02.svg" alt="">
+          <div class="max-w-[900px]">
+            <h3 class="text-white font-bold text-2xl mb-4 uppercase">Подбор кадров: </h3>
+            <p class="text-white text-2xl ">Охранная организация проводит набор сотрудников, проверяет их документы,
+              удостоверяющие личность, а также проверяет наличие лицензии на осуществление охранной деятельности. Кроме
+              того, проводятся психологические тесты и проверка физической подготовки кандидатов</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-[69px]">
+          <img class="max-w-[120px] w-full" src="./img/work/03.svg" alt="">
+          <div class="max-w-[900px]">
+            <h3 class="text-white font-bold text-2xl mb-4 uppercase">РАСПРЕДЕЛЕНИЕ ЗАДАЧ:</h3>
+            <p class="text-white text-2xl ">Каждый охранник получает свои задачи в соответствии с планом охраны. Они
+              могут включать контроль доступа, патрулирование территории, наблюдение за камерами видеонаблюдения и т.д
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-[69px]">
+          <img class="max-w-[120px] w-full" src="./img/work/04.svg" alt="">
+          <div class="max-w-[900px]">
+            <h3 class="text-white font-bold text-2xl mb-4 uppercase">ИНСТРУКТАЖ:</h3>
+            <p class="text-white text-2xl ">После того, как сотрудники были отобраны, они проходят инструктирование. Оно
+              может включать изучение законодательства, техники безопасности, методов самообороны, первой помощи и т.д
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper mySwiper1 max-w-[472px] w-full">
+        <div class="swiper-wrapper mb-20">
+          <div class="swiper-slide"><img class="max-w-[472px] w-full" src="./img/litsenziya.png" alt="litsenziya"></div>
+          <div class="swiper-slide"><img class="max-w-[472px] w-full" src="./img/litsenziya.png" alt="litsenziya"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+   <script>
+    var swiper = new Swiper(".mySwiper1", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
